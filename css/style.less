@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+.app-container {
+	display: none;
+	margin: auto;
+	width: 1250px;
+	height: 1954px;
+	p {font-family: 'Lato', sans-serif;}
+	.header {
+		position: relative;
+		height: 763px;
+		background-image: url(../jpg/header.jpg);
+		background-size: auto auto;
+		padding: 5px;
+		p {
+			letter-spacing: -0.7px;
+			text-indent: 10px;
+			text-align: center;
+			color: white;
+			font-size: 52px;
+			font-weight: 700;
+		}
+		button {
+			width: 274px;
+			height: 64px;
+			position: absolute;
+			bottom: 50px;
+			left: 488px;
+			font-family: 'Lato', sans-serif;
+			font-size: 24px;
+			background-color: rgb(255,136,0);
+			color: white;
+			border: 1px solid rgb(255,136,0);
+			border-radius: 5px;
+		}
+	}
+	.body {
+			height: 1191px;
+			width: 980px;
+			margin: auto; 
+			.body-header {
+				display: flex;
+				padding-top: 53px;
+				margin-bottom: -15px;
+				p {
+					letter-spacing: -0.3px;
+					word-spacing: 4.9px;
+					line-height: 68px;
+					text-align: center;
+					width: 490px;
+					font-size: 34px;
+					font-weight: 300;
+					color: rgb(0, 115, 174); 
+					&:first-child {
+						border-right: 1px solid lightgray;
+					}
+				}
+			}
+			.body-main {
+				border-top: 1px solid lightgray;
+				width: 980px;
+				height: 456px;
+				position: relative;
+				
+
+				&>img {
+					position: absolute;
+					width: 730px;
+					top: 76px;
+					left: 114px;
+					
+				}
+				.image2{
+						top: 83px;
+						left: 121px;
+					};
+				article {
+						position: absolute;
+						text-align: center;
+						font-size: 18px;
+						font-weight: 300;
+						color: rgb(88, 88, 88);
+						letter-spacing: -0.4px;
+						word-spacing: 3px;
+						line-height: 1.278;
+						width: 320px;
+
+						&:nth-child(2) {
+							left: 86px;
+							top: 305px;
+								img {
+								position: absolute;
+								top: 34%;
+								left: 383px;						
+								width: 40px;
+								height: 40px;
+					}
+
+						}
+						&:last-child {
+							left: 574px;
+							top: 305px;
+						}
+
+					}
+				}
+	}
+}
+.appcontainer-mobile {
+	display: none;
+	width: 320px;
+	height: 831px;
+	p {font-family: 'Lato', sans-serif;}
+	margin: auto;
+	.header {
+		position: relative;
+		height: 375px;
+		background-image: url(../jpg/Header-mob.jpg);
+		background-size: auto auto;
+		background-position: 560px  0px;
+		padding: 5px;
+		p {
+			position: absolute;
+			text-align: center;
+			color: white;
+			font-size: 36px;
+			font-weight: 700;
+			line-height: 1.056;
+			left: 15.316px;
+  			top: 55.986px;
+  			width: 290px;
+  			height: 184px;
+		}
+		button {
+			width: 135px;
+			height: 47px;
+			position: absolute;
+			font-family: 'Lato', sans-serif;
+			font-size: 18px;
+			line-height: 0.889;
+			font-weight: 300;
+			border-radius: 6px;
+
+			&:nth-child(2) {
+				background-color: rgb(255, 136, 0);
+				color: white;
+				border: 1px solid rgb(255, 136, 0);	
+				left: 14px;
+				top: 317px;
+			}
+
+			&:nth-child(3) {
+				background-color: rgb(0, 115, 174);
+				color: white;
+				border: 1px solid rgb(0, 115, 174);	
+				left: 170px;
+				top: 317px;
+			}
+		}
+	}
+	.body {
+		height: 456;
+		position: relative;
+		padding-top: 35px;
+		.main {	
+			width: 290px;
+			height: 350px;
+			border: 1px solid rgb(230, 230, 230);
+			border-radius: 5px; 
+			margin: auto;
+			div:nth-child(1) {
+				height: 158px;
+				background-color: rgb(245, 245, 245);
+				overflow: hidden;
+				img {
+					height: 157px;
+					margin: 19px 0 0 19px;
+				}
+
+			}
+			div:nth-child(2) {
+				height: 190px;
+				background-color: white;
+				width: auto;
+				border-top: 1px solid rgb(230, 230, 230);
+				p {
+					margin-left: 15px;
+					margin-top: 10px;
+					font-size: 16px;
+  					font-family: "Lato";
+  					font-size: 400;
+  					color: rgb(88, 88, 88);
+  					line-height: 1.375;
+  					text-align: left;
+  					position: absolute;
+  					left: 14.937px;
+  					top: 249.768px;
+  					width: 260px;
+  					height: 56px;
+				}
+			}
+		}
+		.slider {
+			position: relative;
+			input {
+				display: none;
+
+				&+ label {
+					position: absolute;
+					font-size: 15px;
+  					font-family: "Lato";
+  					color: rgb(0, 115, 174);
+  					text-transform: uppercase;
+  					line-height: 1.6;
+  					text-align: center;
+  					&+ label {
+  						position: absolute;
+  						display: block;
+  						width: 10px;
+  						height: 10px;
+  						border-radius: 10px;
+  						background-color: lightgray;
+						border:1px solid white;	
+  					}
+				}
+				&:checked + label {
+					color: rgb(88, 88, 88);
+					&:before {
+					content:"";
+					display: block;
+					position: absolute;
+					border-top: 1px solid rgb(230, 230, 230); 
+					border-right: 1px solid rgb(230, 230, 230);
+					background-color: white;
+					width: 15px;
+					height: 15px;
+					top: -32px;
+					left: 45px;
+					transform: rotate(-45deg);
+					}
+					&+ label {
+						width: 9px;
+  						height: 9px;
+  						border-radius: 9px;
+  						border: 2px solid gray;
+  						background-color: white;
+					}
+				}
+			}
+			#smart + label {
+  				left: 33px;
+  				top: -169px;
+  				&+ label {
+  					left: 143px;
+  					top: 14px;
+  				}
+  				&:after {
+  					content:"";
+  					width: 20px;
+  					height: 30px;
+  					position: absolute;
+  					border-left: 1px solid rgb(230, 230, 230);
+  					left: 127px;
+  					top: 0px;
+  				}
+  			}
+  			#simple + label {
+				left: 178px;
+  				top: -169px;
+  				&+ label {
+  					left: 165px;
+  					top: 14px;
+  				}
+  			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.app-container {
+		display: block;
+	}	
+}
+@media (max-width: 767px) {
+	.appcontainer-mobile {
+		display: block;
+	}	
+}
+

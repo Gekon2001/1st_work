@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 0px;
+}
+.app-container {
+  display: none;
+  margin: auto;
+  width: 1250px;
+  height: 1954px;
+}
+.app-container p {
+  font-family: 'Lato', sans-serif;
+}
+.app-container .header {
+  position: relative;
+  height: 763px;
+  background-image: url(../jpg/header.jpg);
+  background-size: auto auto;
+  padding: 5px;
+}
+.app-container .header p {
+  letter-spacing: -0.7px;
+  text-indent: 10px;
+  text-align: center;
+  color: white;
+  font-size: 52px;
+  font-weight: 700;
+}
+.app-container .header button {
+  width: 274px;
+  height: 64px;
+  position: absolute;
+  bottom: 50px;
+  left: 488px;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  background-color: #ff8800;
+  color: white;
+  border: 1px solid #ff8800;
+  border-radius: 5px;
+}
+.app-container .body {
+  height: 1191px;
+  width: 980px;
+  margin: auto;
+}
+.app-container .body .body-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 53px;
+  margin-bottom: -15px;
+}
+.app-container .body .body-header p {
+  letter-spacing: -0.3px;
+  word-spacing: 4.9px;
+  line-height: 68px;
+  text-align: center;
+  width: 490px;
+  font-size: 34px;
+  font-weight: 300;
+  color: #0073ae;
+}
+.app-container .body .body-header p:first-child {
+  border-right: 1px solid lightgray;
+}
+.app-container .body .body-main {
+  border-top: 1px solid lightgray;
+  width: 980px;
+  height: 456px;
+  position: relative;
+}
+.app-container .body .body-main > img {
+  position: absolute;
+  width: 730px;
+  top: 76px;
+  left: 114px;
+}
+.app-container .body .body-main .image2 {
+  top: 83px;
+  left: 121px;
+}
+.app-container .body .body-main article {
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: #585858;
+  letter-spacing: -0.4px;
+  word-spacing: 3px;
+  line-height: 1.278;
+  width: 320px;
+}
+.app-container .body .body-main article:nth-child(2) {
+  left: 86px;
+  top: 305px;
+}
+.app-container .body .body-main article:nth-child(2) img {
+  position: absolute;
+  top: 34%;
+  left: 383px;
+  width: 40px;
+  height: 40px;
+}
+.app-container .body .body-main article:last-child {
+  left: 574px;
+  top: 305px;
+}
+.appcontainer-mobile {
+  display: none;
+  width: 320px;
+  height: 831px;
+  margin: auto;
+}
+.appcontainer-mobile p {
+  font-family: 'Lato', sans-serif;
+}
+.appcontainer-mobile .header {
+  position: relative;
+  height: 375px;
+  background-image: url(../jpg/Header-mob.jpg);
+  background-size: auto auto;
+  background-position: 560px  0px;
+  padding: 5px;
+}
+.appcontainer-mobile .header p {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.056;
+  left: 15.316px;
+  top: 55.986px;
+  width: 290px;
+  height: 184px;
+}
+.appcontainer-mobile .header button {
+  width: 135px;
+  height: 47px;
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  line-height: 0.889;
+  font-weight: 300;
+  border-radius: 6px;
+}
+.appcontainer-mobile .header button:nth-child(2) {
+  background-color: #ff8800;
+  color: white;
+  border: 1px solid #ff8800;
+  left: 14px;
+  top: 317px;
+}
+.appcontainer-mobile .header button:nth-child(3) {
+  background-color: #0073ae;
+  color: white;
+  border: 1px solid #0073ae;
+  left: 170px;
+  top: 317px;
+}
+.appcontainer-mobile .body {
+  height: 456;
+  position: relative;
+  padding-top: 35px;
+}
+.appcontainer-mobile .body .main {
+  width: 290px;
+  height: 350px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin: auto;
+}
+.appcontainer-mobile .body .main div:nth-child(1) {
+  height: 158px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+.appcontainer-mobile .body .main div:nth-child(1) img {
+  height: 157px;
+  margin: 19px 0 0 19px;
+}
+.appcontainer-mobile .body .main div:nth-child(2) {
+  height: 190px;
+  background-color: white;
+  width: auto;
+  border-top: 1px solid #e6e6e6;
+}
+.appcontainer-mobile .body .main div:nth-child(2) p {
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: "Lato";
+  font-size: 400;
+  color: #585858;
+  line-height: 1.375;
+  text-align: left;
+  position: absolute;
+  left: 14.937px;
+  top: 249.768px;
+  width: 260px;
+  height: 56px;
+}
+.appcontainer-mobile .body .slider {
+  position: relative;
+}
+.appcontainer-mobile .body .slider input {
+  display: none;
+}
+.appcontainer-mobile .body .slider input + label {
+  position: absolute;
+  font-size: 15px;
+  font-family: "Lato";
+  color: #0073ae;
+  text-transform: uppercase;
+  line-height: 1.6;
+  text-align: center;
+}
+.appcontainer-mobile .body .slider input + label + label {
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: lightgray;
+  border: 1px solid white;
+}
+.appcontainer-mobile .body .slider input:checked + label {
+  color: #585858;
+}
+.appcontainer-mobile .body .slider input:checked + label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-top: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  top: -32px;
+  left: 45px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.appcontainer-mobile .body .slider input:checked + label + label {
+  width: 9px;
+  height: 9px;
+  border-radius: 9px;
+  border: 2px solid gray;
+  background-color: white;
+}
+.appcontainer-mobile .body .slider #smart + label {
+  left: 33px;
+  top: -169px;
+}
+.appcontainer-mobile .body .slider #smart + label + label {
+  left: 143px;
+  top: 14px;
+}
+.appcontainer-mobile .body .slider #smart + label:after {
+  content: "";
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  border-left: 1px solid #e6e6e6;
+  left: 127px;
+  top: 0px;
+}
+.appcontainer-mobile .body .slider #simple + label {
+  left: 178px;
+  top: -169px;
+}
+.appcontainer-mobile .body .slider #simple + label + label {
+  left: 165px;
+  top: 14px;
+}
+@media (min-width: 768px) {
+  .app-container {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .appcontainer-mobile {
+    display: block;
+  }
+}
